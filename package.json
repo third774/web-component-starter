@@ -1,0 +1,39 @@
+{
+  "name": "@third774/web-component-starter",
+  "version": "0.0.8",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A template for quickly building and publishing web components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/third774/web-component-starter"
+  },
+  "keywords": [
+    "web-components",
+    "web",
+    "component",
+    "components",
+    "webcomponent",
+    "webcomponents"
+  ],
+  "module": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./unregistered": "./src/unregistered.js"
+  },
+  "scripts": {
+    "dev": "vite --open",
+    "typecheck": "tsc"
+  },
+  "author": "Kevin Kipp",
+  "license": "MIT",
+  "dependencies": {
+    "lit": "^3.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vite": "^5.0.6"
+  }
+}
